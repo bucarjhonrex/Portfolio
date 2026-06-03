@@ -3,320 +3,306 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Bucar</title>
-
+    <title>Jhon Rex Bucar — Frontend Developer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="look.css">
     
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Portfolio</a>
 
-        <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navMenu">
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">JRB.</a>
+        <button class="navbar-toggler border-0" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+            <ul class="navbar-nav ms-auto gap-1">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
+
 <section class="hero">
-    <div class="container text-center">
-
-      
-        <img src="Photo/MahPot.jpg"
-             class="profile-img mb-4"
-             alt="Profile">
-
-        <h1 class="display-4 fw-bold">
-           Jhon Rex Bucar
-        </h1>
-
-        <p class="lead">
-    Frontend Developer | UI/UX Enthusiast
-        </p>
-
-            <p class="mb-4">
-         Crafting responsive, modern, and user-friendly web experiences using
-         HTML, CSS, JavaScript, and Bootstrap.
-            </p>
-
-        <a href="#projects" class="btn btn-primary btn-lg">
-            View Projects
-        </a>
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+        <div class="profile-ring">
+            <img src="Photo/MahPot.jpg" class="profile-img" alt="Jhon Rex Bucar">
+        </div>
+        <p class="hero-role">Frontend Developer</p>
+        <h1>Jhon Rex Bucar</h1>
+        <p>Crafting responsive, modern, and user-friendly web experiences using HTML, CSS, JavaScript, and Bootstrap.</p>
+        <div>
+            <a href="#projects" class="btn-hero">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 20h20M6 20V8l6-6 6 6v12"/></svg>
+                View Projects
+            </a>
+            <a href="#contact" class="btn-hero btn-hero-ghost">Get in Touch</a>
+        </div>
     </div>
 </section>
 
 
-<section id="about" class="py-5">
+<section id="about">
     <div class="container">
-
-        <h2 class="text-center section-title">
-            About Me
-        </h2>
-
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-
-                <p>
-    I am a Frontend Developer passionate about creating visually appealing,
-    responsive, and interactive websites that deliver exceptional user experiences.
-            </p>
-
-            <p>
-    I specialize in transforming ideas and designs into functional web interfaces
-    using modern frontend technologies. I enjoy building clean layouts,
-    optimizing performance, and ensuring accessibility across devices.
-            </p>
-
+        <div class="row align-items-center g-5">
+            <div class="col-lg-7 reveal">
+                <span class="section-eyebrow">Who I am</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="about-card mt-4">
+                    <p>I am a Frontend Developer passionate about creating visually appealing, responsive, and interactive websites that deliver exceptional user experiences.</p>
+                    <p>I specialize in transforming ideas and designs into functional web interfaces using modern frontend technologies. I enjoy building clean layouts, optimizing performance, and ensuring accessibility across devices.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 reveal reveal-delay-1">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="about-stat">
+                            <span class="num">3+</span>
+                            <span class="label">Projects Built</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="about-stat">
+                            <span class="num">6+</span>
+                            <span class="label">Technologies</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="about-stat">
+                            <span class="num">UI/UX</span>
+                            <span class="label">Focus Area</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="about-stat">
+                            <span class="num">2026</span>
+                            <span class="label">Year Active</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
 
-<section id="skills" class="py-5 bg-light">
+<section id="skills">
     <div class="container">
+        <div class="text-center mb-5 reveal">
+            <span class="section-eyebrow">What I use</span>
+            <h2 class="section-title">Skills &amp; Technologies</h2>
+            <p class="section-subtitle mx-auto mt-2">The tools and technologies I work with to bring ideas to life.</p>
+        </div>
 
-        <h2 class="text-center section-title">
-            Skills
-        </h2>
-
-        <div class="row g-4">
-
-            <div class="col-md-4 col-lg-3">
-                <div class="card skill-card text-center">
-                    <div class="card-body">
-                        <h5>HTML5</h5>
-                    </div>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <div class="skill-chip reveal reveal-delay-1">
+                <div class="skill-icon" style="background:rgba(228,77,38,0.12);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4h16l-1.5 14L12 20l-6.5-2L4 4z" stroke="#e44d26" stroke-width="1.8"/></svg>
                 </div>
+                <span class="skill-name">HTML5</span>
             </div>
-
-            <div class="col-md-3">
-                <div class="card skill-card text-center">
-                    <div class="card-body">
-                        <h5>CSS</h5>
-                    </div>
+            <div class="skill-chip reveal reveal-delay-1">
+                <div class="skill-icon" style="background:rgba(38,77,228,0.12);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4h16l-1.5 14L12 20l-6.5-2L4 4z" stroke="#264de4" stroke-width="1.8"/></svg>
                 </div>
+                <span class="skill-name">CSS3</span>
             </div>
-
-            <div class="col-md-3">
-                <div class="card skill-card text-center">
-                    <div class="card-body">
-                        <h5>MySQL</h5>
-                    </div>
+            <div class="skill-chip reveal reveal-delay-2">
+                <div class="skill-icon" style="background:rgba(247,223,30,0.12);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="#f7df1e" stroke-width="1.8"/><path d="M14 14c0 1.5 1 2 2 2s2-.5 2-2V9" stroke="#f7df1e" stroke-width="1.8"/><path d="M8 14c.5 1.5 2 2 3 2s2.5-.8 2.5-2-1.5-2-2.5-2.5-2.5-1-2.5-2 1-1.5 2-1.5 1.8.5 2 1" stroke="#f7df1e" stroke-width="1.8"/></svg>
                 </div>
+                <span class="skill-name">JavaScript</span>
             </div>
-
-            <div class="col-md-3">
-                <div class="card skill-card text-center">
-                    <div class="card-body">
-                        <h5>JavaScript</h5>
-                    </div>
+            <div class="skill-chip reveal reveal-delay-2">
+                <div class="skill-icon" style="background:rgba(86,61,124,0.15);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.5 4.5l3 10 5-5 5 5 3-10" stroke="#7952b3" stroke-width="1.8" stroke-linejoin="round"/></svg>
                 </div>
+                <span class="skill-name">Bootstrap</span>
             </div>
-
-            <div class="col-md-3">
-                <div class="card skill-card text-center">
-                    <div class="card-body">
-                        <h5>Bootstrap</h5>
-                    </div>
+            <div class="skill-chip reveal reveal-delay-3">
+                <div class="skill-icon" style="background:rgba(0,117,143,0.12);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="12" rx="9" ry="5" stroke="#00758f" stroke-width="1.8"/><path d="M3 12v4c0 2.76 4.03 5 9 5s9-2.24 9-5v-4" stroke="#00758f" stroke-width="1.8"/></svg>
                 </div>
+                <span class="skill-name">MySQL</span>
             </div>
-            
-
-            <div class="col-md-3">
-                <div class="card skill-card text-center">
-                    <div class="card-body">
-                        <h5>GitHub</h5>
-                    </div>
+            <div class="skill-chip reveal reveal-delay-3">
+                <div class="skill-icon" style="background:rgba(36,41,47,0.4);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="#e2e8f0" stroke-width="1.8"/></svg>
                 </div>
+                <span class="skill-name">GitHub</span>
             </div>
-
+            <div class="skill-chip reveal reveal-delay-3">
+                <div class="skill-icon" style="background:rgba(255,45,32,0.12);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="#ff2d20" stroke-width="1.8"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="#ff2d20" stroke-width="1.8"/></svg>
+                </div>
+                <span class="skill-name">Laravel</span>
+            </div>
+            <div class="skill-chip reveal reveal-delay-3">
+                <div class="skill-icon" style="background:rgba(65,184,131,0.12);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M1 12C1 7 5 3 10 3h4l-2.5 3H10C7 6 4 8.7 4 12s3 6 6 6h1.5l2.5 3H10C5 21 1 17 1 12z" stroke="#41b883" stroke-width="1.8"/><path d="M23 12c0 5-4 9-9 9h-4l2.5-3H14c3 0 6-2.7 6-6s-3-6-6-6h-1.5L10 3h4c5 0 9 4 9 9z" stroke="#41b883" stroke-width="1.8"/></svg>
+                </div>
+                <span class="skill-name">Vue.js</span>
+            </div>
         </div>
     </div>
 </section>
 
 
-
-<section id="projects" class="py-5">
+<section id="projects">
     <div class="container">
-
-        <h2 class="text-center section-title">
-            Projects
-        </h2>
+        <div class="text-center mb-5 reveal">
+            <span class="section-eyebrow">What I've built</span>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle mx-auto mt-2">A selection of projects I've worked on — from full-stack web apps to database systems.</p>
+        </div>
 
         <div class="row g-4">
 
-           
-            <div class="col-lg-4">
-                <div class="card project-card h-100">
-
-
-                    <img src="Photo/library.png"
-
-                         class="card-img-top"
-                         alt="Library Management System">
-
-                    <div class="card-body">
+         
+            <div class="col-lg-4 reveal reveal-delay-1">
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="Photo/library.png" alt="Library Management System">
+                        <div class="project-img-overlay"></div>
+                    </div>
+                    <div class="project-body">
                         <h5>Library Management System</h5>
-
-                        <p>
-                            A responsive web application designed to simplify library 
-                            operations by providing an intuitive interface for book management,
-                             borrowing records, inventory tracking,
-                             and user interactions.
-                        </p>
-
-                        <span class="badge bg-primary">PHP</span>
-                        <span class="badge bg-info">CSS</span>
-                        <span class="badge bg-success">MySQL</span>
-                        <span class="badge bg-dark">Bootstrap</span>
+                        <p>A responsive web application to simplify library operations — book management, borrowing records, inventory tracking, and user interactions.</p>
+                        <div>
+                            <span class="tech-badge" style="background:rgba(119,83,160,0.15);color:#c792ea;border-color:rgba(119,83,160,0.3);">PHP</span>
+                            <span class="tech-badge" style="background:rgba(38,77,228,0.12);color:#7fb3ff;border-color:rgba(38,77,228,0.25);">CSS</span>
+                            <span class="tech-badge" style="background:rgba(0,117,143,0.12);color:#5fc9d9;border-color:rgba(0,117,143,0.25);">MySQL</span>
+                            <span class="tech-badge" style="background:rgba(121,82,178,0.12);color:#b28ce0;border-color:rgba(121,82,178,0.25);">Bootstrap</span>
+                        </div>
                     </div>
-
-                    <div class="card-footer">
-                        <a href="https://github.com/bucarjhonrex/Library-System.git"
-                           target="_blank"
-                           class="btn btn-outline-primary w-100">
-                            View Repository
+                    <div class="project-footer">
+                        <a href="https://github.com/bucarjhonrex/Library-System.git" target="_blank" class="btn-repo">
+                            View on GitHub →
                         </a>
                     </div>
-
                 </div>
             </div>
-
-           
-            <div class="col-lg-4">
-                <div class="card project-card h-100">
-
-                    <img src="Photo/soars.png"
-                         class="card-img-top"
-                         alt="HR View System">
-                        
-                    <div class="card-body">
-                        <h5>Student Online Admission Registration System(SOARS)</h5>
-
-                        <p>
-                            SOARS is a web-based admissions platform 
-                            developed using Laravel, Vue.js, PHP,
-                             CSS, and Bootstrap 5. It streamlines the admissions 
-                             process through a clean, intuitive interface,
-                             providing users with a more efficient and user-friendly application experience.
-
-                        </p>
-
-                        <span class="badge bg-secondary">Laravel</span>
-                        <span class="badge bg-secondary">Vue.js</span>
-                        <span class="badge bg-secondary">Bootstrap 5</span>
-                        <span class="badge bg-secondary">CSS</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="https://github.com/bucarjhonrex/Soars.git"
-                           target="_blank"
-                           class="btn btn-outline-primary w-100">
-                            View Repository
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-           
-            <div class="col-lg-4">
-                <div class="card project-card h-100">
-
-                    <img src="Photo/management.png"
-                         class="card-img-top"
-                         alt="Transaction Management">
-
-                    <div class="card-body">
-                        <h5>Transaction Management & Currency Control</h5>
-
-                        <p>
-                            A database-focused project learning
-                            how to create any related transactional management
-                        </p>
-
-                        <span class="badge bg-success">MySQL</span>
-                        <span class="badge bg-warning text-dark">SQL</span>
-                        <span class="badge bg-info text-dark">Database Concepts</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <a href="https://github.com/bucarjhonrex/Transaction_Management_and_Currency_Control.git"
-                           target="_blank"
-                           class="btn btn-outline-primary w-100">
-                            View Repository
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-           
-            
 
           
-            
+            <div class="col-lg-4 reveal reveal-delay-2">
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="Photo/soars.png" alt="SOARS">
+                        <div class="project-img-overlay"></div>
+                    </div>
+                    <div class="project-body">
+                        <h5>Student Online Admission Registration System (SOARS)</h5>
+                        <p>A web-based admissions platform built with Laravel &amp; Vue.js that streamlines the enrollment process through a clean, intuitive interface.</p>
+                        <div>
+                            <span class="tech-badge" style="background:rgba(255,45,32,0.1);color:#ff8080;border-color:rgba(255,45,32,0.2);">Laravel</span>
+                            <span class="tech-badge" style="background:rgba(65,184,131,0.12);color:#7eddb0;border-color:rgba(65,184,131,0.25);">Vue.js</span>
+                            <span class="tech-badge" style="background:rgba(121,82,178,0.12);color:#b28ce0;border-color:rgba(121,82,178,0.25);">Bootstrap 5</span>
+                            <span class="tech-badge" style="background:rgba(38,77,228,0.12);color:#7fb3ff;border-color:rgba(38,77,228,0.25);">CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://github.com/bucarjhonrex/Soars.git" target="_blank" class="btn-repo">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+         
+            <div class="col-lg-4 reveal reveal-delay-3">
+                <div class="project-card">
+                    <div class="project-img-wrap">
+                        <img src="Photo/management.png" alt="Transaction Management">
+                        <div class="project-img-overlay"></div>
+                    </div>
+                    <div class="project-body">
+                        <h5>Transaction Management &amp; Currency Control</h5>
+                        <p>A database-focused project exploring transactional management principles, currency control, and relational database concepts using SQL.</p>
+                        <div>
+                            <span class="tech-badge" style="background:rgba(0,117,143,0.12);color:#5fc9d9;border-color:rgba(0,117,143,0.25);">MySQL</span>
+                            <span class="tech-badge" style="background:rgba(255,180,0,0.1);color:#ffd26b;border-color:rgba(255,180,0,0.2);">SQL</span>
+                            <span class="tech-badge" style="background:rgba(100,116,139,0.12);color:#94a3b8;border-color:rgba(100,116,139,0.25);">DB Concepts</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://github.com/bucarjhonrex/Transaction_Management_and_Currency_Control.git" target="_blank" class="btn-repo">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
 
-<section id="contact" class="py-5 bg-light">
-    <div class="container text-center">
+<section id="contact">
+    <div class="container">
+        <div class="text-center mb-5 reveal">
+            <span class="section-eyebrow">Let's connect</span>
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle mx-auto mt-2">Open to opportunities, collaborations, or just a friendly chat.</p>
+        </div>
 
-        <h2 class="section-title">
-            Contact
-        </h2>
-
-        <p>
-            GitHub:
-            <a href="https://github.com/bucarjhonrex">
-                github.com/bucarjhonrex
+        <div class="contact-card reveal">
+            <a href="https://github.com/bucarjhonrex" target="_blank" class="contact-link">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="contact-link-label">GitHub</span>
+                    <span class="contact-link-value">github.com/bucarjhonrex</span>
+                </div>
             </a>
-        </p>
-
-        <p>
-            Email:
-            bucarjhonrex19@gmail.com
-        </p>
-
+            <a href="mailto:bucarjhonrex19@gmail.com" class="contact-link">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="contact-link-label">Email</span>
+                    <span class="contact-link-value">bucarjhonrex19@gmail.com</span>
+                </div>
+            </a>
+        </div>
     </div>
 </section>
 
-<footer class="py-3 text-center">
-    <p class="mb-0">
-        © 2026 Jhon Rex Bucar | Portfolio
-    </p>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Jhon Rex Bucar — Designed &amp; built with care.</p>
+    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+<script>
+    const revealEls = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                e.target.classList.add('visible');
+                io.unobserve(e.target);
+            }
+        });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => io.observe(el));
+</script>
 </body>
 </html>
